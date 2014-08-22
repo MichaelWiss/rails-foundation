@@ -12,6 +12,8 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'spring',        group: :development
 gem 'foundation-rails'
 gem 'high_voltage'
+gem "paperclip", "~> 4.1"
+gem 'aws-sdk'
 group :development do
   gem 'better_errors'
   gem 'binding_of_caller', :platforms=>[:mri_20]
